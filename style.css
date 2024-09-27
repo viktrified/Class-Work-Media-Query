@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+
+header h1 {
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+main p {
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer p {
+    width: 100%;
+    border: 1px solid black;
+    height: 80px;
+}
+
+main .bigp {
+    width: 50%;
+    padding: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
